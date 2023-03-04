@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+}
+.container{
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1) ;
+    width: 800px;
+    max-width: 800px;
+    padding: 25px 40px 10px 40px;
+    border-radius: 0.2cm;
+}
+
+.container .text{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    background: -webkit-linear-gradient(60deg, #29323c 0%, #485563 100%) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container form{
+    padding: 30px 0 0 0 0;
+}
+.container form .form-row{
+    display: flex;
+    margin: 32px 0;
+
+}
+form .form-row .input-data{
+    width: 100%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+}
+form .form-row .textarea{
+    height: 70px;
+
+}
+.input-data input,
+.textarea textarea{
+    display:block;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgba(0,0,0,0.12);
+}
+.input-data label{
+    position: absolute;
+    bottom: 10px;
+    font-size: 16px;
+    pointer-events:fill;
+    transition: all 0.3s ease; /*labelları animasyonla küçültmek*/
+
+}
+.textarea label{
+    width: 100%;
+    bottom: 40px;
+    background: #fff;
+}
+.input-data input:focus ~ label, /*texte basınca labelları küçültüp yukarı kaydırma*/
+.textarea textarea:focus ~ label,
+.input-data input:valid ~ label, 
+.textarea textarea:valid ~ label{
+    transform: translateY(-20px);
+    color: #3498db;
+    font-size: 14px;
+} 
+.textarea textarea{
+    resize: none;
+    padding-top: 10px;
+}
+
+.input-data .underline{
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+}
+.input-data .underline:before,
+.input-data .underline:after{
+    position: absolute;
+    content:"" ;
+    height: 100%;
+    width: 100%;
+    background:#3498db;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;/*texte basınca labelları küçültüp yukarı kaydırma*/
+}
+.input-data input:focus ~ .underline:before, .underline:after,/*texte basınca labelları küçültüp yukarı kaydırma*/
+.textarea textarea:focus ~ .underline:before, .underline:after,
+.input-data input:valid ~ .underline:before, .underline:after, 
+.textarea textarea:valid ~ .underline:before, .underline:after{
+    transform: scaleX(1);
+}
+
+.submit-btn .input-data{
+    height: 45px!important;
+    width: 25%!important; /*böyleyken dışa kaydı*/
+    overflow: hidden; /*kutunun içine girdi*/
+
+}
+.submit-btn .input-data .inner{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    transition: all 0.3s;  /*Gönder butonuna gelince animatik renk değişimi*/
+    background: -webkit-linear-gradient(60deg, #29323c 0%, #485563 100%) ;
+
+}
+
+.submit-btn .input-data:hover .inner{  /*Gönder butonuna gelince oluşan renk değişimi animasyonu yukarda katıyoruz*/
+    left: 0;
+}
+.submit-btn .input-data input{
+    position: relative; /*butondaki gönder yazısının görünmesini sağladı*/
+    z-index: 2;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* Responsive hale getirmek için */
+@media (max-width: 700px){
+    .container .text{
+        font-size: 30px;
+    }
+    .container form{
+        padding: 10px 0 0 0 0;
+    }
+    .container form .form-row{
+        display: block;
+    }
+    form .form-row .input-data{
+        margin: 35px 0!important;
+    }
+    .submit-btn .input-data{
+        width: 40px!important;
+    }
+}
