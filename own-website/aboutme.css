@@ -32,6 +32,9 @@ body {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+.navMenu a:nth-child(1){
+  transform: translateX(-40px);
+}
 
 .navMenu a:hover { /*bir şeyin üzerine gelince olan etkinlikleri gösterir burada menu itemlerinin üstüne gelince sarıya dönmesini gösteriyor*/
   color: #fddb3a;
