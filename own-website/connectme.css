@@ -12,7 +12,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     padding: 40px;
-    background-color: #272727;
+    background: #272727;
 }
 .container{
     background: #fff;
