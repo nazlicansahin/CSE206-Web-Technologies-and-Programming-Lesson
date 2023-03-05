@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.images{
+    position: absolute;
+    margin: auto;
+    width: 20rem;
+}
