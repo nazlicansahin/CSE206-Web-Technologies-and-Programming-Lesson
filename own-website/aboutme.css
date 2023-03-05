@@ -12,6 +12,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+
 .navMenu {
   position: absolute;
   top: 10%;
@@ -59,27 +60,27 @@ body {
   .navMenu a:nth-child(2):hover ~ .dot { /*  ~ .dot -> "~" a ile aynı seviyedeki tüm dot ları seçer */
     -webkit-transform: translateX(110px);
     transform: translateX(110px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     opacity: 1;
   }
   
   .navMenu a:nth-child(3):hover ~ .dot {
     -webkit-transform: translateX(200px);
     transform: translateX(200px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     opacity: 1;
   }
   
   .navMenu a:nth-child(4):hover ~ .dot {
-    -webkit-transform: translateX(285px);
-    transform: translateX(285px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    -webkit-transform: translateX(265px);
+    transform: translateX(265px);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     opacity: 1;
   }
-
+/*
   .container .presentation{
     position: absolute;
     width: 600px;
@@ -94,22 +95,57 @@ body {
     
   }
   .container .presentation .header{
+    height: 250px;
     font-weight: 700;
   }
 
-  .container .ahmet{
-    position:absolute;
-    width: 450px;
-    height: 450px;
-    border-radius: 0.2cm;
-    top: 20%;
-    left: 10%;
- 
-  }
-  @media screen and (max-width: 500px) {
-    .container {
-      width: 100%;
-    }
+  .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0;
   }
 
-    
+  .container img {
+    height: 450px;
+    border-radius: 0.2cm;
+
+ 
+  }
+.container .text{
+  margin-right: 25px;
+}
+
+    */
+.section{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  width: 65%;
+  margin: 12rem auto 0 auto;
+}
+.section img{
+  height: 450px;
+  float: right;
+}
+.section h1{
+  margin: 0;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  top: 30%;
+  left: 50%;
+  color: #f6f4e6;
+  padding-left: 15px;
+}
+.section p{
+  margin-right: 15px;
+  margin: 15px;
+  padding-right: 2px;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  top: 30%;
+  left: 50%;
+  color: #f6f4e6;
+  float: left;
+}

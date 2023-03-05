@@ -12,7 +12,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     padding: 40px;
-background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    background-color: #272727;
 }
 .container{
     background: #fff;
@@ -120,7 +120,7 @@ form .form-row .textarea{
     position: absolute;
     left: -100%;
     transition: all 0.3s;  /*Gönder butonuna gelince animatik renk değişimi*/
-    background: -webkit-linear-gradient(60deg, #29323c 0%, #485563 100%) ;
+    background: -webkit-linear-gradient(60deg, #272727 0%, #485563 100%) ;
 
 }
 
