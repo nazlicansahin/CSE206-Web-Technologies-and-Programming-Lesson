@@ -8,6 +8,7 @@
 body {
     background: #272727;
     color: #f6f4e6;
+    scroll-behavior: smooth;
 }
   .navMenu a:nth-child(5){
     color: #fddb3a;
@@ -15,17 +16,19 @@ body {
 }
 
 .container{
+  
   font-size: 35px;
 
-  line-height: 2em;
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
 
+
 h3{
-  line-height: 2.5em;
+  line-height: 1.8em;
+  color: #fddc3ac1;
 
   font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
@@ -36,31 +39,13 @@ h3{
 h3:hover{
   font-size: 1.65em;
 }
-h4,h5,h6{
-  
+h4,h5{
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 
+line-height: 1.4em;
 }
-.h4{
-  background-position: left;
-  width: 0;
-  background-image: linear-gradient(rgb(0, 0, 0), rgb(42, 42, 35));
-  transition: width 2s;
-}
-.h4:hover{
-  width: 100%;
-  height: 80%;
 
-}
-h5:hover{
-  font-size: 1.1em;
-}
-h4:hover{
-  font-size: 1.1em;
-}
 @keyframes an{
   from{
       opacity: 0;
@@ -71,3 +56,7 @@ h4:hover{
       transform: perspective(500px) translate3d(0, 0, 0);
   }
 }
+h5{
+  color: rgb(247, 218, 184);
+}
+
