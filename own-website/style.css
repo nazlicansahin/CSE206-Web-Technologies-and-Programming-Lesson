@@ -13,6 +13,7 @@ body {
 }
 
 
+
 .navMenu {
   text-align: center;
   position: absolute;
@@ -97,44 +98,7 @@ body {
     transition: all 0.3s ease-in-out;
     opacity: 1;
   }
-/*
-  .container .presentation{
-    position: absolute;
-    width: 600px;
-    height: 650px;
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
-    top: 30%;
-    left: 50%;
-    color: #f6f4e6;
 
-    
-    
-  }
-  .container .presentation .header{
-    height: 250px;
-    font-weight: 700;
-  }
-
-  .container{
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    width: 60%;
-    margin: 10rem auto 0;
-  }
-
-  .container img {
-    height: 450px;
-    border-radius: 0.2cm;
-
- 
-  }
-.container .text{
-  margin-right: 25px;
-}
-
-    */
 .section{
   display: flex;
   justify-content: space-between;
@@ -166,3 +130,8 @@ body {
   color: #f6f4e6;
   float: left;
 }
+.flex{
+  display: inline-block;
+  text-align: center;
+}
+
