@@ -1,8 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
     background: #272727;
     font-family: "Montserrat", sans-serif;
-  }
+    color: #f6f4e6;  }
   .navMenu a:nth-child(5){
     color: #fddb3a;
+
+}
+
+.container{
+  font-size: 35px;
+  line-height: 2em;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+h1{
+  font-size: 3em;
 
 }
