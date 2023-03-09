@@ -19,7 +19,7 @@ article{
   font-family: 'Times New Roman', Times, serif;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10%;
+  margin-top: 14%;
   line-height: 1.5em;
 }
 
@@ -66,4 +66,18 @@ button:hover{
 }
 button img {
   width: 30px;
+}
+#specialdesign{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  font-style: italic;
+  color: rgb(89, 83, 76);
+  background-color: #ead1ab;
+  text-align: center;
 }

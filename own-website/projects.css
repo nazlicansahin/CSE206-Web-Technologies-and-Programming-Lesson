@@ -3,10 +3,11 @@
 
 body{
     padding: 0;
-    margin: 0;
+    margin: 14%;
 }
 
 .images{
+
     margin: 0;
     display:flexbox;
     max-width: 1000px;
