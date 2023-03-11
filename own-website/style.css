@@ -136,7 +136,7 @@ body {
 }
 .dropbtn{
   
-  background-color:#554c45cd;
+  background-color:#323131;
   color: #f6f4e6;
   margin-top: 5%;
   padding: 12px;
@@ -155,7 +155,7 @@ body {
 
   display: none;
   position: absolute;
-  background-color:#554c45cd;
+  background-color:#4e4c4c;
   color: #272727;
   transform: translateX(15px);
   min-width: 123px;
@@ -168,11 +168,11 @@ body {
   display: block;
 }
 .drop a:hover{
-  background-color: #646254;
+  background-color: #656363;
 }
 .dropdown:hover .drop{
   display: block;
 }
 .dropdown:hover .dropbtn {
-  background-color: rgb(157, 139, 121);
+  color: #fddb3a;
 }
