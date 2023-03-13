@@ -91,3 +91,9 @@ h6{
   transform: translateX(30px);
   
 }
+@media screen and (max-width: 800px) {
+  article{
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+}
