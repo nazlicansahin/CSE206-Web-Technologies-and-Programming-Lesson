@@ -43,7 +43,7 @@ blockquote{
 h6{
   font-size: 1em;
 }
-button{
+#like{
   cursor: pointer;
   margin-left: 4%;
   margin-right: 0;
@@ -62,12 +62,12 @@ button{
   transform: translateY(10px);
 
 }
-button:hover{
+#like:hover{
   opacity:1 !important;
   
 }
 
-button img {
+#like img {
   width: 30px;
 }
 #specialdesign{
@@ -87,7 +87,7 @@ button img {
   font-family: 'Times New Roman', Times, serif;
 }
 #thanks{
-  display: inline;
+  display: none;
   transform: translateX(30px);
   
 }

@@ -232,7 +232,7 @@ display: none;
   color: white;
   padding: 12px;
   font-size: 20px;
-  border: none;
+  border:none;
 }
 
 .nav {
@@ -246,7 +246,7 @@ display: none;
   display: none;
   background-color: #f1f1f1;
   margin-top: 7.5em;
-  width: 100px;
+  width:80px;
 
   
 }
