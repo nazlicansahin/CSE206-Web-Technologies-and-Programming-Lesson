@@ -145,15 +145,19 @@ form .form-row .textarea{
 
 /* Responsive hale getirmek için */
 @media (max-width: 700px){
+
     .age{
         display: block;
+
         padding-left: 5%;
     }
     .checkbox{
         display: block;
     }
     .container{
-        margin: 100px;
+        margin: 50px;
+    
+        
 
     }
     .container .text{
