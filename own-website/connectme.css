@@ -193,3 +193,21 @@ form .form-row .textarea{
     display: inline-block;
     width: 50%;
 }
+
+
+@media only screen and (max-width: 900px) {
+
+    .checkbox, .age{
+        padding: 0;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+        margin-bottom: 10px;
+    }
+
+    .age > input, .age > p, .check > input, .check > p {
+        margin-bottom: 10px
+    }
+}
