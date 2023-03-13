@@ -13,7 +13,6 @@ body {
 }
 
 
-
 .navMenu {
   text-align: center;
   position: absolute;
@@ -175,4 +174,39 @@ body {
 }
 .dropdown:hover .dropbtn {
   color: #fddb3a;
+}
+
+
+
+@media (max-width: 700px){
+  
+.navMenu {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  width: 80%;
+}
+.nav{
+  margin: 0;
+  padding: 0;
+}
+  
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display:inline;
+  width: max-content;
+
+}
+
+.navMenu a:hover { /*bir şeyin üzerine gelince olan etkinlikleri gösterir burada menu itemlerinin üstüne gelince sarıya dönmesini gösteriyor*/
+  color: #fddb3a;
+}
+
+.navMenu .dot { /*menü altındaki sarı topu oluşturmak için */
+  display: none;
+}
 }
